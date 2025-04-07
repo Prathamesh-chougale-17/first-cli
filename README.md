@@ -19,13 +19,20 @@ npm link
 
 ```bash
 # Ask a question
-rainbow-qa ask "What is your favorite programming language?"
+prathamesh-qa ask "What is your favorite programming language?"
 
 # Give a reward
-rainbow-qa reward "You did a great job!"
+prathamesh-qa reward "You did a great job!"
 
 # Run in interactive mode
-rainbow-qa
+prathamesh-qa
+
+
+```
+or
+```bash
+# Run using npx without installing globally
+npx rainbow-qa-cli
 ```
 
 ## Development
